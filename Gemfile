@@ -8,6 +8,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'annotate'
 end
 
 group :development do
