@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
+gem 'gravatar_image_tag'
 
 group :production do
   gem 'pg'
@@ -20,6 +21,7 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc8'
   gem 'ZenTest'
+  gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
