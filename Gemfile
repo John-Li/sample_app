@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 group :production do
   gem 'pg'
